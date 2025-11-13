@@ -3,9 +3,114 @@
 > vite
 
 
-  VITE v5.4.20  ready in 318 ms
+  VITE v5.4.20  ready in 336 ms
 
   ➜  Local:   http://localhost:3000/
-  ➜  Network: http://172.20.22.102:3000/
-3:48:07 PM [vite] ✨ new dependencies optimized: framer-motion, @splinetool/react-spline
-3:48:07 PM [vite] ✨ optimized dependencies changed. reloading
+  ➜  Network: http://172.20.25.223:3000/
+4:33:49 PM [vite] Pre-transform error: Failed to resolve import "./components/ThemeProvider" from "src/main.jsx". Does the file exist?
+4:33:49 PM [vite] Pre-transform error: Failed to resolve import "./components/PreorderModal" from "src/App.jsx". Does the file exist?
+4:33:49 PM [vite] Pre-transform error: Failed to resolve import "./ThemeProvider" from "src/components/ThemeToggle.jsx". Does the file exist?
+4:33:49 PM [vite] Pre-transform error: Failed to resolve import "../lib/api" from "src/pages/Contact.jsx". Does the file exist?
+4:33:49 PM [vite] Pre-transform error: Failed to resolve import "@react-three/fiber" from "src/components/ProductViewer.jsx". Does the file exist?
+4:33:50 PM [vite] Pre-transform error: Failed to resolve import "./components/ThemeProvider" from "src/main.jsx". Does the file exist?
+4:33:50 PM [vite] Pre-transform error: Failed to resolve import "../lib/api" from "src/pages/Contact.jsx". Does the file exist?
+4:33:50 PM [vite] Pre-transform error: Failed to resolve import "./components/PreorderModal" from "src/App.jsx". Does the file exist?
+4:33:50 PM [vite] Pre-transform error: Failed to resolve import "./ThemeProvider" from "src/components/ThemeToggle.jsx". Does the file exist?
+4:33:50 PM [vite] Pre-transform error: Failed to resolve import "@react-three/fiber" from "src/components/ProductViewer.jsx". Does the file exist?
+4:33:51 PM [vite] ✨ new dependencies optimized: lucide-react
+4:33:51 PM [vite] ✨ optimized dependencies changed. reloading
+4:33:51 PM [vite] Pre-transform error: Failed to resolve import "./components/ThemeProvider" from "src/main.jsx". Does the file exist?
+4:33:51 PM [vite] Pre-transform error: Failed to resolve import "./components/PreorderModal" from "src/App.jsx". Does the file exist?
+4:33:51 PM [vite] Pre-transform error: Failed to resolve import "./ThemeProvider" from "src/components/ThemeToggle.jsx". Does the file exist?
+4:33:51 PM [vite] Pre-transform error: Failed to resolve import "../lib/api" from "src/pages/Contact.jsx". Does the file exist?
+4:33:51 PM [vite] Pre-transform error: Failed to resolve import "@react-three/fiber" from "src/components/ProductViewer.jsx". Does the file exist?
+4:33:51 PM [vite] Internal server error: Failed to resolve import "./components/ThemeProvider" from "src/main.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/workspace/src/main.jsx:8:30
+  7  |  import Contact from "./pages/Contact";
+  8  |  import "./index.css";
+  9  |  import { ThemeProvider } from "./components/ThemeProvider";
+     |                                 ^
+  10 |  import CursorFX from "./components/CursorFX";
+  11 |  import Controls from "./components/Controls";
+      at TransformPluginContext._formatError (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49258:41)
+      at TransformPluginContext.error (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49253:16)
+      at normalizeUrl (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64306:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64438:39
+      at async Promise.all (index 8)
+      at async TransformPluginContext.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64365:7)
+      at async PluginContainer.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49099:18)
+      at async loadAndTransform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:51977:27)
+      at async viteTransformMiddleware (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:62105:24)
+4:33:51 PM [vite] Pre-transform error: Failed to resolve import "./components/PreorderModal" from "src/App.jsx". Does the file exist?
+4:33:51 PM [vite] Pre-transform error: Failed to resolve import "./ThemeProvider" from "src/components/ThemeToggle.jsx". Does the file exist?
+4:33:51 PM [vite] Pre-transform error: Failed to resolve import "../lib/api" from "src/pages/Contact.jsx". Does the file exist?
+4:33:51 PM [vite] Pre-transform error: Failed to resolve import "./ThemeProvider" from "src/components/ThemeToggle.jsx". Does the file exist?
+4:33:51 PM [vite] Internal server error: Failed to resolve import "./components/ThemeProvider" from "src/main.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/workspace/src/main.jsx:8:30
+  7  |  import Contact from "./pages/Contact";
+  8  |  import "./index.css";
+  9  |  import { ThemeProvider } from "./components/ThemeProvider";
+     |                                 ^
+  10 |  import CursorFX from "./components/CursorFX";
+  11 |  import Controls from "./components/Controls";
+      at TransformPluginContext._formatError (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49258:41)
+      at TransformPluginContext.error (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49253:16)
+      at normalizeUrl (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64306:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64438:39
+      at async Promise.all (index 8)
+      at async TransformPluginContext.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64365:7)
+      at async PluginContainer.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49099:18)
+      at async loadAndTransform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:51977:27)
+      at async viteTransformMiddleware (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:62105:24)
+4:33:51 PM [vite] Pre-transform error: Failed to resolve import "../lib/api" from "src/pages/Contact.jsx". Does the file exist?
+4:33:51 PM [vite] Pre-transform error: Failed to resolve import "@react-three/fiber" from "src/components/ProductViewer.jsx". Does the file exist?
+4:33:51 PM [vite] Pre-transform error: Failed to resolve import "./components/PreorderModal" from "src/App.jsx". Does the file exist?
+4:33:51 PM [vite] Pre-transform error: Failed to resolve import "@react-three/fiber" from "src/components/ProductViewer.jsx". Does the file exist?
+4:34:18 PM [vite] Pre-transform error: Failed to resolve import "./components/ThemeProvider" from "src/main.jsx". Does the file exist?
+4:34:18 PM [vite] Pre-transform error: Failed to resolve import "./components/PreorderModal" from "src/App.jsx". Does the file exist?
+4:34:18 PM [vite] Pre-transform error: Failed to resolve import "../lib/api" from "src/pages/Contact.jsx". Does the file exist?
+4:34:18 PM [vite] Pre-transform error: Failed to resolve import "./ThemeProvider" from "src/components/ThemeToggle.jsx". Does the file exist?
+4:34:18 PM [vite] Pre-transform error: Failed to resolve import "@react-three/fiber" from "src/components/ProductViewer.jsx". Does the file exist?
+4:34:20 PM [vite] Pre-transform error: Failed to resolve import "./components/ThemeProvider" from "src/main.jsx". Does the file exist?
+4:34:20 PM [vite] Pre-transform error: Failed to resolve import "./ThemeProvider" from "src/components/ThemeToggle.jsx". Does the file exist?
+4:34:20 PM [vite] Pre-transform error: Failed to resolve import "./components/PreorderModal" from "src/App.jsx". Does the file exist?
+4:34:20 PM [vite] Pre-transform error: Failed to resolve import "../lib/api" from "src/pages/Contact.jsx". Does the file exist?
+4:34:20 PM [vite] Pre-transform error: Failed to resolve import "@react-three/fiber" from "src/components/ProductViewer.jsx". Does the file exist?
+4:34:20 PM [vite] Pre-transform error: Failed to resolve import "./components/ThemeProvider" from "src/main.jsx". Does the file exist?
+4:34:20 PM [vite] Pre-transform error: Failed to resolve import "./components/ThemeProvider" from "src/main.jsx". Does the file exist?
+4:34:20 PM [vite] Pre-transform error: Failed to resolve import "./components/PreorderModal" from "src/App.jsx". Does the file exist?
+4:34:20 PM [vite] Pre-transform error: Failed to resolve import "./ThemeProvider" from "src/components/ThemeToggle.jsx". Does the file exist?
+4:34:20 PM [vite] Pre-transform error: Failed to resolve import "../lib/api" from "src/pages/Contact.jsx". Does the file exist?
+4:34:20 PM [vite] Pre-transform error: Failed to resolve import "@react-three/fiber" from "src/components/ProductViewer.jsx". Does the file exist?
+4:34:24 PM [vite] Pre-transform error: Failed to resolve import "./components/ThemeProvider" from "src/main.jsx". Does the file exist?
+4:34:24 PM [vite] Pre-transform error: Failed to resolve import "./components/PreorderModal" from "src/App.jsx". Does the file exist?
+4:34:24 PM [vite] Pre-transform error: Failed to resolve import "./ThemeProvider" from "src/components/ThemeToggle.jsx". Does the file exist?
+4:34:24 PM [vite] Pre-transform error: Failed to resolve import "../lib/api" from "src/pages/Contact.jsx". Does the file exist?
+4:34:24 PM [vite] Pre-transform error: Failed to resolve import "@react-three/fiber" from "src/components/ProductViewer.jsx". Does the file exist?
+4:34:26 PM [vite] Internal server error: Failed to resolve import "./components/ThemeProvider" from "src/main.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/workspace/src/main.jsx:8:30
+  7  |  import Contact from "./pages/Contact";
+  8  |  import "./index.css";
+  9  |  import { ThemeProvider } from "./components/ThemeProvider";
+     |                                 ^
+  10 |  import CursorFX from "./components/CursorFX";
+  11 |  import Controls from "./components/Controls";
+      at TransformPluginContext._formatError (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49258:41)
+      at TransformPluginContext.error (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49253:16)
+      at normalizeUrl (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64306:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64438:39
+      at async Promise.all (index 8)
+      at async TransformPluginContext.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64365:7)
+      at async PluginContainer.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49099:18)
+      at async loadAndTransform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:51977:27)
+      at async viteTransformMiddleware (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:62105:24)
+4:34:26 PM [vite] Pre-transform error: Failed to resolve import "../lib/api" from "src/pages/Contact.jsx". Does the file exist?
+4:34:26 PM [vite] Pre-transform error: Failed to resolve import "./components/PreorderModal" from "src/App.jsx". Does the file exist?
+4:34:26 PM [vite] Pre-transform error: Failed to resolve import "./ThemeProvider" from "src/components/ThemeToggle.jsx". Does the file exist?
+4:34:26 PM [vite] Pre-transform error: Failed to resolve import "@react-three/fiber" from "src/components/ProductViewer.jsx". Does the file exist?
