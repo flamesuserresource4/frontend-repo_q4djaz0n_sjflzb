@@ -1,26 +1,19 @@
-import { useState } from 'react'
+import HeroSection from './HeroSection'
+import TechSection from './components/TechSection'
+import DesignSection from './components/DesignSection'
+import ExperienceSection from './components/ExperienceSection'
+import ProductViewer from './components/ProductViewer'
+import SiteFooter from './components/SiteFooter'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 to-blue-50 flex items-center justify-center">
-      <div className="bg-white p-8 rounded-lg shadow-lg">
-        <h1 className="text-3xl font-bold text-gray-800 mb-4">
-          Vibe Coding Platform
-        </h1>
-        <p className="text-gray-600 mb-6">
-          Your AI-powered development environment
-        </p>
-        <div className="text-center">
-          <button
-            onClick={() => setCount(count + 1)}
-            className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded"
-          >
-            Count is {count}
-          </button>
-        </div>
-      </div>
+    <div className="min-h-screen w-full bg-white text-gray-900">
+      <HeroSection />
+      <TechSection />
+      <DesignSection />
+      <ExperienceSection />
+      <ProductViewer />
+      <SiteFooter />
     </div>
   )
 }
